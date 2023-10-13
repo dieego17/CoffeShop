@@ -1,0 +1,137 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #000;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 400px;
+  max-width: 1300px;
+}
+.container__blogs{
+  margin: 200px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.title__color{
+  color: #d3ad7f;
+}
+
+/* NUESTROS BLOGS */
+.blogs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.blogs-card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #d3ad7f;
+  width: 100%;
+  margin: 10px 0px;
+}
+.blogs-card__content{
+  color: #ffffff;
+}
+.blogs-card__text{
+  padding: 0px 20px 20px;
+}
+.blogs-card__user, .blogs-card__title{
+  display: none;
+}
+.blogs-card__btn{
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #d3ad7f;
+  padding: 10px 20px;
+  background-color: #d3ad7f;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+.blogs-card__btn:hover{
+  background-color: #d3ad7f93;
+  border: 1px solid #d3ad7f;
+}
+
+/* SOBRE NOSOTROS */
+.nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: #ffffff;
+  background-color: #13131a;
+  padding: 20px 0px;
+}
+.nosotros__img{
+  display: none;
+}
+.nosotros__title{
+  border-bottom: 1px solid #d3ad7f;
+  padding: 0px 0px 10px;
+}
+.nosotros__contenido{
+  margin: 0px 30px;
+}
+.nosotros__btn{
+  background-color: #d3ad7f;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+/* OPINION CLIENTES */
+.container__clientes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cliente-card__img, .cliente-card__stars, .cliente-card__name{
+  display: none;
+}
+.cliente-card{
+  border: 1px solid #d3ad7f;
+  margin: 20px 0px;
+  color: #ffffff;
+  width: 300px;
+  height: 250px;
+  padding: 10px 20px;
+}
+.container__menus{
+  display: none;
+}
+
+/* FOOTER */
+.footer{
+  text-align: center;
+  color: #ffffff;
+}
+.fab{
+  color: #d3ad7f;
+  text-decoration: none;
+}
+.footer__line{
+  border: 1px solid #d3ad7f;
+}

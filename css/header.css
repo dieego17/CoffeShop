@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d3ad7f;
+}
+
+/* NAV CAFÉ */
+.header__logo{
+    display: none;
+    width: 70px;
+}
+
+/* NAV LIST */
+.nav{
+    margin: 10px 0px;
+    grid-area: nav;
+}
+.nav__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__item{
+    padding: 0px 10px;
+    list-style-type: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* NAV ICONS */
+.header__icons, .header-items{
+    display: none;
+    color: #ffffff;
+}
+.header__icons{
+    font-size: 1.3rem;
+    color: #d3ad7f;
+}
+.header__icon{
+    padding: 0px 5px;
+}
+
+/* SECTION INICIO */
+.inicio{
+    grid-area: inicio;
+}
+.inicio__container-text{
+    background-image: url(../assets/images/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.inicio__title, .inicio__text{
+    color: #ffffff;
+}
+.inicio__text{
+    display: none;
+}
+.inicio__title{
+    font-size: 3rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 5px 0px;
+}
+.inicio__btn{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #d3ad7f;
+    background-color: #d3ad7f;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px 10px 0px;
+}
