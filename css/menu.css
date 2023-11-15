@@ -1,0 +1,45 @@
+.container__menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.menu-card{
+    border: 1px solid #d3ad7f;
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    width: 300px;
+    padding: 30px 0px;
+    transition: all 0.5s ease;
+}
+.menu-card:hover{
+    background-color: #cccccc5e;
+}
+.title{
+    color: #ffffff;
+    text-align: center;
+}
+.title__color{
+    color: #d3ad7f;
+}
+.menu-card__price{
+    margin: 10px 0px 15px;
+}
+.menu-card__btn{
+    background-color: #d3ad7f;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.menu-card__btn:hover{
+    letter-spacing: 1px;
+}
